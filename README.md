@@ -56,6 +56,15 @@ Com isso o sistema já está pronto para o uso, para testar existe algumas forma
                 FinalPrice
             }
         }
+
+        query queryOrders {
+            orders {
+                id
+                Price
+                Tax
+                FinalPrice
+            }
+        }
     ```
 
 ---
